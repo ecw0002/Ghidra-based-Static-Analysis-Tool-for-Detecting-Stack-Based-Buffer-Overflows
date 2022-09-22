@@ -1,0 +1,5 @@
+Type,Sink,Argument,Src Name,Function Found,Sink Location,Argument Location,Path,Size,Max Fill
+N/A,strcat,charptr2,[RBP + -0x70],CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cat_67b_badSink,0x00101792,0x00101784,"[[CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cat_67b_badSink, 00101792]]",99,99
+N/A,strcat,charptr1,[RBP + -0x70],CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cat_67_bad,0x00101792,0x0010184d,"[[CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cat_67b_badSink, 00101792], [CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cat_67_bad, 0010186b]]",104,99
+N/A,strcat,charptr2,[RBP + -0x70],CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cat_67b_goodG2BSink,0x0010180e,0x00101800,"[[CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cat_67b_goodG2BSink, 0010180e]]",99,99
+N/A,strcat,charptr1,[RBP + -0x70],goodG2B,0x0010180e,0x0010189e,"[[CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cat_67b_goodG2BSink, 0010180e], [goodG2B, 001018bc]]",104,99

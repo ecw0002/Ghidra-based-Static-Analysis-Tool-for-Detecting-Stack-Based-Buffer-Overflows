@@ -1,0 +1,10 @@
+Type,Sink,Argument,Src Name,Function Found,Sink Location,Argument Location,Path,Size,Max Fill
+N/A,memmove,charptr2,[0x102078],CWE121_Stack_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_08_bad,0x00101793,0x00101789,"[[CWE121_Stack_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_08_bad, 00101793]]",124,124
+N/A,memmove,int,0x50,CWE121_Stack_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_08_bad,0x00101793,0x00101784,"[[CWE121_Stack_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_08_bad, 00101793]]",80,80
+N/A,memmove,charptr1,[RBP + -0x60],CWE121_Stack_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_08_bad,0x00101793,0x00101780,"[[CWE121_Stack_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_08_bad, 00101793]]",60,80
+N/A,memmove,charptr2,[0x102078],good1,0x0010182b,0x00101821,"[[good1, 0010182b]]",124,124
+N/A,memmove,int,0x40,good1,0x0010182b,0x0010181c,"[[good1, 0010182b]]",64,64
+N/A,memmove,charptr1,[RBP + -0x60],good1,0x0010182b,0x00101818,"[[good1, 0010182b]]",60,64
+N/A,memmove,charptr2,[0x102078],good2,0x001018b5,0x001018ab,"[[good2, 001018b5]]",124,124
+N/A,memmove,int,0x40,good2,0x001018b5,0x001018a6,"[[good2, 001018b5]]",64,64
+N/A,memmove,charptr1,[RBP + -0x60],good2,0x001018b5,0x001018a2,"[[good2, 001018b5]]",60,64

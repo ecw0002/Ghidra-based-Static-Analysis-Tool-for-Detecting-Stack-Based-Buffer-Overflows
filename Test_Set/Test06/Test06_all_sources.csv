@@ -1,0 +1,5 @@
+Type,Sink,Argument,Src Name,Function Found,Sink Location,Argument Location,Path,Size,Max Fill
+N/A,wcscpy,charptr2,[RBP + -0x40],CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_41_badSink,0x00101797,0x00101789,"[[CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_41_badSink, 00101797]]",56,44
+N/A,wcscpy,charptr1,[RBP + -0x40],CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_41_bad,0x00101797,0x001017d6,"[[CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_41_badSink, 00101797], [CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_41_bad, 001017ef]]",56,44
+N/A,wcscpy,charptr2,[RBP + -0x40],CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_41_goodG2BSink,0x00101874,0x00101866,"[[CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_41_goodG2BSink, 00101874]]",56,44
+N/A,wcscpy,charptr1,[RBP + -0x40],goodG2B,0x00101874,0x001018b3,"[[CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_41_goodG2BSink, 00101874], [goodG2B, 001018cc]]",56,44

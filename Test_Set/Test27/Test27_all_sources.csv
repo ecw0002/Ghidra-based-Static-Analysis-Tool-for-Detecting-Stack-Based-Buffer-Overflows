@@ -1,0 +1,7 @@
+Type,Sink,Argument,Src Name,Function Found,Sink Location,Argument Location,Path,Size,Max Fill
+N/A,memcpy,charptr1,[RBP + -0x40],CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66b_badSink,0x00101944,0x0010193a,"[[CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66b_badSink, 00101944]]",50,99
+N/A,memcpy,charptr2,[RBP + -0x70],CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66_bad,0x00101944,0x00101768,"[[CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66b_badSink, 00101944], [CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66_bad, 001017b2]]",104,99
+N/A,memcpy,int,[RBP + -0x70],CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66_bad,0x00101944,0x00101768,"[[CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66b_badSink, 00101944], [CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66_bad, 001017b2]]",104,99
+N/A,memcpy,charptr1,[RBP + -0x40],CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66b_goodG2BSink,0x001019ea,0x001019e0,"[[CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66b_goodG2BSink, 001019ea]]",50,49
+N/A,memcpy,charptr2,[RBP + -0x70],goodG2B,0x001019ea,0x001017e8,"[[CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66b_goodG2BSink, 001019ea], [goodG2B, 00101832]]",104,49
+N/A,memcpy,int,[RBP + -0x70],goodG2B,0x001019ea,0x001017e8,"[[CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_66b_goodG2BSink, 001019ea], [goodG2B, 00101832]]",104,49

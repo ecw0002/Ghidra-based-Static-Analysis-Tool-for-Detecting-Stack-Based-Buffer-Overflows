@@ -1,0 +1,5 @@
+Type,Sink,Argument,Src Name,Function Found,Sink Location,Argument Location,Path,Size,Max Fill
+Warning,strcpy,charptr1,[RBP + -0x40],CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68b_badSink,0x001018f8,0x001018ee,"[[CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68b_badSink, 001018f8]]",50,99
+Warning,strcpy,charptr2,[RBP + -0x70],CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68_bad,0x001018f8,0x00101755,"[[CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68b_badSink, 001018f8], [CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68_bad, 00101755]]",104,99
+Caution,strcpy,charptr1,[RBP + -0x40],CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68b_goodG2BSink,0x00101986,0x0010197c,"[[CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68b_goodG2BSink, 00101986]]",50,49
+Caution,strcpy,charptr2,[RBP + -0x70],goodG2B,0x00101986,0x001017c1,"[[CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_68b_goodG2BSink, 00101986], [goodG2B, 001017c1]]",104,49

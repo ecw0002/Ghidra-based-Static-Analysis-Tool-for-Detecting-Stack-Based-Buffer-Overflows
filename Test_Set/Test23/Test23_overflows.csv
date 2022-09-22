@@ -1,0 +1,7 @@
+Type,Sink,Argument,Src Name,Function Found,Sink Location,Argument Location,Path,Size,Max Fill
+Warning,memcpy,charptr1,[RBP + -0x270],CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_32_bad,0x00101845,0x00101838,"[[CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_32_bad, 00101845]]",196,396
+Warning,memcpy,charptr2,[RBP + -0x1a0],CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_32_bad,0x00101845,0x00101784,"[[CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_32_bad, 00101845]]",408,396
+Warning,memcpy,int,[RBP + -0x1a0],CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_32_bad,0x00101845,0x00101824,"[[CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_32_bad, 00101845]]",408,396
+Caution,memcpy,charptr1,[RBP + -0x270],goodG2B,0x00101971,0x00101964,"[[goodG2B, 00101971]]",196,196
+Caution,memcpy,charptr2,[RBP + -0x1a0],goodG2B,0x00101971,0x001018b0,"[[goodG2B, 00101971]]",408,196
+Caution,memcpy,int,[RBP + -0x1a0],goodG2B,0x00101971,0x00101950,"[[goodG2B, 00101971]]",408,196

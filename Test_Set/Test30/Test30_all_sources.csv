@@ -1,0 +1,5 @@
+Type,Sink,Argument,Src Name,Function Found,Sink Location,Argument Location,Path,Size,Max Fill
+N/A,wcscpy,charptr2,[RBP + -0x1a0],CWE121_Stack_Based_Buffer_Overflow__dest_wchar_t_declare_cpy_34_bad,0x001017c3,0x001017af,"[[CWE121_Stack_Based_Buffer_Overflow__dest_wchar_t_declare_cpy_34_bad, 001017c3]]",396,396
+N/A,wcscpy,charptr1,[RBP + -0x270],CWE121_Stack_Based_Buffer_Overflow__dest_wchar_t_declare_cpy_34_bad,0x001017c3,0x00101758,"[[CWE121_Stack_Based_Buffer_Overflow__dest_wchar_t_declare_cpy_34_bad, 001017c3]]",208,396
+N/A,wcscpy,charptr2,[RBP + -0x1a0],goodG2B,0x00101873,0x0010185f,"[[goodG2B, 00101873]]",396,396
+N/A,wcscpy,charptr1,[RBP + -0x330],goodG2B,0x00101873,0x00101808,"[[goodG2B, 00101873]]",400,396

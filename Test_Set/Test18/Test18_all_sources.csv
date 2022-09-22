@@ -1,0 +1,7 @@
+Type,Sink,Argument,Src Name,Function Found,Sink Location,Argument Location,Path,Size,Max Fill
+N/A,memcpy,int,0x190,badSink,0x00101798,0x0010178d,"[[badSink, 00101798]]",400,400
+N/A,memcpy,charptr2,[RBP + -0x1a0],badSink,0x00101798,0x0010177f,"[[badSink, 00101798]]",396,396
+N/A,memcpy,charptr1,[RBP + -0x1a0],CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_44_bad,0x00101798,0x001017fe,"[[badSink, 00101798], [CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_44_bad, 0010182a]]",408,0
+N/A,memcpy,int,0x190,goodG2BSink,0x0010189d,0x00101892,"[[goodG2BSink, 0010189d]]",400,400
+N/A,memcpy,charptr2,[RBP + -0x1a0],goodG2BSink,0x0010189d,0x00101884,"[[goodG2BSink, 0010189d]]",396,396
+N/A,memcpy,charptr1,[RBP + -0x1a0],goodG2B,0x0010189d,0x00101903,"[[goodG2BSink, 0010189d], [goodG2B, 0010192f]]",408,0

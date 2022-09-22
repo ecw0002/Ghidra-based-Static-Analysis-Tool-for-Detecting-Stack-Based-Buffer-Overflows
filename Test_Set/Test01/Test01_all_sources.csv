@@ -1,0 +1,7 @@
+Type,Sink,Argument,Src Name,Function Found,Sink Location,Argument Location,Path,Size,Max Fill
+N/A,memcpy,charptr2,[0x102078],CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01_bad,0x0010176f,0x00101765,"[[CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01_bad, 0010176f]]",31,31
+N/A,memcpy,int,0x20,CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01_bad,0x0010176f,0x00101760,"[[CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01_bad, 0010176f]]",32,32
+N/A,memcpy,charptr1,[RBP + -0x30],CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01_bad,0x0010176f,0x0010175c,"[[CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01_bad, 0010176f]]",15,32
+N/A,memcpy,charptr2,[0x102078],good1,0x001017e8,0x001017de,"[[good1, 001017e8]]",31,31
+N/A,memcpy,int,0x10,good1,0x001017e8,0x001017d9,"[[good1, 001017e8]]",16,16
+N/A,memcpy,charptr1,[RBP + -0x30],good1,0x001017e8,0x001017d5,"[[good1, 001017e8]]",15,16
