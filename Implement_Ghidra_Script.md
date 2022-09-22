@@ -7,7 +7,7 @@ First, the script manager needs to be opened. This can be done by opening a bina
 clicking on Window, then scrolling down to the script manager icon. The script manager
 icon can also be accessed from the top tool bar.
 
-![Alt text](https://github.com/ecw0002/Ghidra-based-Static-Analysis-Tool-for-Detecting-Stack-Based-Buffer-Overflows/img/load_script1.jpg "Open Script Manager")
+![Alt text](https://github.com/ecw0002/Ghidra-based-Static-Analysis-Tool-for-Detecting-Stack-Based-Buffer-Overflows/tree/main/img/load_script1.jpg "Open Script Manager")
 
 Once opened the script manager’s menu will appear. On the left side of the script manager
 is a list of the script folders. These folders are not file locations; instead they are categories
@@ -18,7 +18,7 @@ script. It will also ask for the directory the file should be stored in. This wi
 text editor, allowing the user to begin writing code. The second button is the directory list.
 This allows the user to add directories for Ghidra to use when looking for script files. 
 
-![Alt text](https://github.com/ecw0002/Ghidra-based-Static-Analysis-Tool-for-Detecting-Stack-Based-Buffer-Overflows/img/load_script1.jpg "Script Manager")
+![Alt text](https://github.com/ecw0002/Ghidra-based-Static-Analysis-Tool-for-Detecting-Stack-Based-Buffer-Overflows/tree/main/img/load_script1.jpg "Script Manager")
 
 When a script is selected, the file can be viewed and edited by clicking on the basic editor
 button. Inside the script, the top few comments determine what Ghidra will display for the
@@ -28,4 +28,4 @@ Detection”, the script will be stored in the “Bufferoverflow Detection” fo
 To run a scripts, the script must be selected. Then, the green run script button will appear,
 which if selected, will run the script. 
 
-![Alt text](https://github.com/ecw0002/Ghidra-based-Static-Analysis-Tool-for-Detecting-Stack-Based-Buffer-Overflows/img/load_script1.jpg "Load Script")
+![Alt text](https://github.com/ecw0002/Ghidra-based-Static-Analysis-Tool-for-Detecting-Stack-Based-Buffer-Overflows/tree/main/img/load_script1.jpg "Load Script")
