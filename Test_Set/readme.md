@@ -1,4 +1,4 @@
-The Juliet test programs are compiled using GCC 
+The Juliet test programs are compiled using GCC. 
 The programs contain macros to specify pieces of code that are or not part of the compilation
 process. These programs are compiled individually, which means each program requires a
 main function. These programs are also compiled with the GCC option -fno-builtin. This
