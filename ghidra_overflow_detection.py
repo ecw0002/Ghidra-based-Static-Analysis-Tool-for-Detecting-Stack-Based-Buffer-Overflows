@@ -270,8 +270,6 @@ def Local_Var_Usage(func):
                                                 last_operand2 = '0x00'
                                             else:
                                                 last_operand2 = '0x' + ('41'*var_list[ref_offset]["size"])
-                                            #print(repr(tmp_string.encode('utf-32')))
-                                            #last_operand2 = str(tmp_string.encode('utf-8'))
                                     first_var_use[ref_offset] = {"size": var_list[ref_offset]["size"], "value":last_operand2, "type":"WRITE", "block": var_len}
                                     found = True
                                     break
@@ -692,9 +690,6 @@ class Source_Finder():
         while new_address != inside_function.getEntryPoint() and args:
             prev_instruc = Listing.getCodeUnitBefore(new_address)
             command, operand1, operand2 = Instruction_Split(prev_instruc)
-            #if 'charptr1' in args.keys():
-            #    print(args['charptr1'])
-            #    print(prev_instruc)
             #Checking for the parameters that were used in the function
             if command == 'MOV' or command == 'MOVSX' or command == 'MOVSXD' or command == 'MOVSS' or command == "LEA" or command == 'CVTTSS2SI':
                 instruc = Listing.getInstructionAt(prev_instruc.getMinAddress())
@@ -828,8 +823,6 @@ class Source_Finder():
                                     args[arg] = reg_list[0]
                                     continue
                                 elif check.find("*") != -1:
-                                    #sources.append([arg,operand2,prev_instruc])
-                                    #args.pop(arg)
                                     continue
                             
                             #if it's a local var, address, or constant, create soucre and remove from search list
@@ -924,8 +917,6 @@ class Source_Finder():
                                         args.pop(arg)
                     else:
                         break
-                #else:
-                #    break
 
             #gets the next address
             new_address = prev_instruc.getMinAddress()
@@ -938,9 +929,7 @@ class Source_Finder():
                 next_instruc = Listing.getCodeUnitAt(new_address)
                 command, operand1, operand2 = Instruction_Split(next_instruc)
                 if command == "MOV" and operand1 == "qword ptr " + x[LOCATION]:
-                    pointers, new_args, index2 = self.Find_Source(next_instruc.getMinAddress(), {x[ARGUMENT]:operand2}, [])
-                #elif command == "LEA" and operand2 == x[LOCATION]:
-                #    pointers, new_args, index = self.Find_Source(next_instruc.getMinAddress(), {x[ARGUMENT]:operand2}, [])  
+                    pointers, new_args, index2 = self.Find_Source(next_instruc.getMinAddress(), {x[ARGUMENT]:operand2}, []) 
                 if pointers:
                     test = pointers[0][LOCATION] not in Registers
                     if pointers[0][LOCATION] not in Registers and pointers[0][LOCATION].find("+") != -1:
@@ -951,7 +940,6 @@ class Source_Finder():
         #Remove items that were not passed as parameters and could not be determined as a local variable
         for arg, value in args.items():
             if not value or value.find("-") != -1 or value.find("RBP") == -1:
-                #sources.append([arg,value,prev_instruc])
                 args.pop(arg)
 
         args.update(tmp_args)
