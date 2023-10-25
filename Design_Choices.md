@@ -71,7 +71,7 @@ implemented
 
 Variadic functions:
 Variadic functions are functions that take a variable number of parameters. Examples of
-this from libc are printf() and scanf() [26] [27]. These functions rely on what is known as a
+this from libc are printf() and scanf(). These functions rely on what is known as a
 format specifier to parse the number of parameters it takes. For this research, these types of
 functions are excluded from testing. It is not to say that finding a buffer overflow in these
 functions is impossible. It would require a different approach to parse the format specifier
